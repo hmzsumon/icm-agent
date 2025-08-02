@@ -120,6 +120,10 @@ const DropdownUser = () => {
 					</li>
 
 					<li>
+						<span>{user?.partner_id}</span>
+					</li>
+
+					<li>
 						{formatDate(
 							user?.active_date ? user?.active_date : user?.createdAt
 						)}
